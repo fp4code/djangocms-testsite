@@ -1,0 +1,3 @@
+[submodule "submodules/django-cms"]
+	path = submodules/django-cms
+	url = git@github.com:fp4code/django-cms.git
