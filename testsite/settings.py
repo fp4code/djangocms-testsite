@@ -64,7 +64,7 @@ STATIC_ROOT = os.path.join(DATA_DIR, 'static')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'testsite', 'static'),
 )
-SITE_ID = os.getenv('SITE_ID', 1)
+SITE_ID = int(os.getenv('SITE_ID', 1))
 
 
 TEMPLATES = [

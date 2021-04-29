@@ -32,7 +32,10 @@
         {% cms_toolbar %}
         <div class="container">
             <ul class="nav">
-                {% show_menu 0 100 100 100 %}
+              {% show_menu 0 100 100 100 %}
+            </ul>
+            <ul class="nav">
+	      {% show_breadcrumb %}
             </ul>
             {% block content %}{% endblock content %}
         </div>
